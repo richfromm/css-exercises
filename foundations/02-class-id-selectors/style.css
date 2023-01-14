@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+.odd {
+    background-color: #FFA7A7;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+/* #third */
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    /* HSB 120/50%/100% converted to HSL via https://colorizer.org/ */
+    background-color: hsl(120, 100%, 75%);
+    font-size: 24px;
+    font-weight: bold;
+}
