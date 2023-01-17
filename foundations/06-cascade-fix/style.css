@@ -8,20 +8,21 @@ body{
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
+/* I solved this by moving from below. Another solution is to
+   keep it in place but change the .small-para below to be chained. */
 .para {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
+.small-para {
+/* .para.small-para { */
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* .para was originally here */
+
+/* .confirm was originally here */
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,7 +30,17 @@ body{
   font-size: 20px;
 }
 
-.child {
+/* I solved this by moving this from above. Another solution is to
+   keep it in place but change from an id selector to a class selector */
+.confirm {
+/* #confirm-button { */
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+/* .child { */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,3 +51,4 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
