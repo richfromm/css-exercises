@@ -1,0 +1,15 @@
+.font-bw,
+.font-col {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.font-bw {
+    background-color: black;
+    color: white;
+}
+
+.font-col {
+    background-color: yellow;
+    color: black;
+}
