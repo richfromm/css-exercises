@@ -24,5 +24,10 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 32px;
+  /* This is functional, but doesn't match the solution. */
   margin-left: 330px;
+  /* The solution uses auto only on the left to right justify. */
+  /* margin-left: auto; */
+  /* Note that both left and right auto will center. */
+  /* margin-right: auto; */
 }
