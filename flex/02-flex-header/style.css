@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* from solution, see below */
+  /* padding: 8px; */
 }
 
 .logo {
@@ -21,8 +23,12 @@ ul {
   display: flex;
   margin: 0px;
   padding: 0px;
+  /* from solution, see below */
+  /* gap: 8px; */
 }
 
+/* the solution doesn't have this.
+   instead, it adds 8px gap to ul, and 8px padding to header */
 li {
   padding: 8px;
 }
