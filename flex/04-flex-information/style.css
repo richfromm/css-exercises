@@ -33,7 +33,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 200px;
+  /* max-width is better than width when the window gets narrow */
+  max-width: 200px;
 }
 
 /* new */
