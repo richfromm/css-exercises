@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* new */
+  display: flex;
+  flex-direction: row; /* default */
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -29,10 +34,39 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  min-width: 42px; /* new */
+  min-height: 42px; /* new */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* new */
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* new */
+.toprow {
+  display: flex;
+  flex-direction: row; /* default */
+  justify-content: space-between;
+}
+
+/* new */
+.header {
+  font-weight: bold;
+  font-size: large;
+}
+
+/* new */
+.buttons {
+  display: flex;
+  flex-direction: row; /* default */
+  gap: 4px;
 }
 
 .close-button {
