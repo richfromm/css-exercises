@@ -4,6 +4,11 @@
   width: 400px;
   height: 300px;
   display: flex;
+  /* this works too */
+  /*
+  justify-content: center;
+  align-items: center;
+   */
 }
 
 .box {
